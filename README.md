@@ -1,6 +1,6 @@
 # ClusterMineracaoDeDados
 
-Algoritmos de Cluster para agrupamento de Dados
+Algoritmos de Cluster para agrupamento de Dados.
 
 ## Related
 
