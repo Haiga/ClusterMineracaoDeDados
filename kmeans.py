@@ -6,15 +6,6 @@ data0 = load_iris()
 print(data0.feature_names)
 data = data0.data[:, [2, 3]]
 
-# data = [
-#     [5, 1, 4, 2],
-#     [4, 1, 1, 3],
-#     [6, 6, 6, 3],
-#     [8, 6, 10, 6],
-#     [10, 10, 8, 8],
-#     [9, 8, 7, 4],
-# ]
-
 numk = 3
 
 result = random.sample(range(0, len(data)), numk)
