@@ -18,7 +18,6 @@ def distancia(vetor1, vetor2, r=2):
     total = pow(total, 1 / r)
     return total
 
-
 def dispersao(grupo1, grupo2):
     matriz_distancias = []
     for item1 in grupo1:
@@ -37,7 +36,6 @@ def min_distance(grupo1, grupo2):
         min_distances.append(min(vetor_distancias))
     return min(min_distances)
 
-
 qtd_documentos = len(data)
 grupos = [0]*qtd_documentos
 for i in range(qtd_documentos):
@@ -55,10 +53,6 @@ for i in range(qtd_documentos):
             matrix[i][k] = math.inf
         else:
             matrix[i][k] = distancia(data[i], data[k])
-
-
-
-
 
 t = qtd_documentos
 max = 5
