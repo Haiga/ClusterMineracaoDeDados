@@ -55,13 +55,6 @@ for P in range(0, len(data)):
 
 cores = ['r', 'g', 'b', 'k', 'y', 'c', 'C0', 'C1', 'C2', 'C3', 'C4']
 
-# for doc in range(len(data)):
-#     plt.plot(data[doc, 0], data[doc, 1], '.', c=cores[labels[doc]])
-# plt.xlim(left=0.5)
-# plt.xlim(right=7)
-# plt.ylim(top=3)
-# plt.ylim(bottom=0)
-# plt.show()
 
 for i in range(len(labels)):
     labels[i] -= 1
